@@ -13,6 +13,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "EC2_terraform_test_instance" {
-  ami           = "ami-0be2609ba883822ec"
+  ami           = "ami-0fde50fcbcd46f2f7"
   instance_type = "t2.micro"
+
+  tags = {
+    "Name" = "My_Terraform_EC2"
+  }
 }
