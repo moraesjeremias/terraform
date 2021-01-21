@@ -29,7 +29,7 @@ Type 'yes' and hit enter
 * After deploy all infrastructure remember to rollback all changes (specially for not get charged too much for any resource): <br/>
 `terraform destroy`
 
-## Achievments
+## Achievements
 ## Docker
 * Sucessfuly deployed a docker container with Terraform CLI
 * Complete destroy infrastructure resources after learning session
