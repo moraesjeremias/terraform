@@ -1,5 +1,0 @@
-# Terraform State Backup
-*.backup
-
-# Terraform's Providers Registry
-terraform-provider*
